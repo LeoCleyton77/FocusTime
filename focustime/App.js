@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, SafeAreaView, Platform, StatusBar } from 'react-native';
 import Constants from 'expo-constants';
-import { colors } from './src/utils/colors'
-import { Focus } from './src/features/Focus'
-import { Timer } from './src/features/Timer'
-import { FocusHistory } from './src/features/FocusHistory'
+import { colors } from './focustime/src/utils/colors'
+import { Focus } from './focustime/src/features/Focus'
+import { Timer } from './focustime/src/features/Timer'
+import { FocusHistory } from './focustime/src/features/FocusHistory'
 
 export default function App() {
   
